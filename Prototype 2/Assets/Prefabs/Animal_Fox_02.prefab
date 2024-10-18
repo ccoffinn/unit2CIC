@@ -692,6 +692,8 @@ GameObject:
   - component: {fileID: 2519183702608647548}
   - component: {fileID: 638602204778804062}
   - component: {fileID: 1381530165421237218}
+  - component: {fileID: 1739521978870303073}
+  - component: {fileID: 8191324585683380928}
   m_Layer: 0
   m_Name: Animal_Fox_02
   m_TagString: Untagged
@@ -707,7 +709,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7280203877666939434}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9996711, z: 0, w: -0.02564474}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 9.950663, y: 0, z: 10.5430765}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
@@ -725,7 +727,7 @@ Transform:
   - {fileID: 6211896992885290612}
   - {fileID: 6988329573973847232}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -182.939, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &2519183702608647548
 Animator:
   serializedVersion: 5
@@ -770,6 +772,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a22585a18b719024a8e2ab10f30cbb34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1739521978870303073
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7280203877666939434}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10300026, y: 0.26928687, z: 0.36598516}
+  m_Center: {x: 0.0003476143, y: 0.09474485, z: 0.013109565}
+--- !u!114 &8191324585683380928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7280203877666939434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1b174941d2bb44ea369497a8f23b25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7883106221585193330

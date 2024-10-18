@@ -1878,6 +1878,8 @@ GameObject:
   - component: {fileID: 1585477625201684948}
   - component: {fileID: 1213218276560648573}
   - component: {fileID: 1122103478235486564}
+  - component: {fileID: 2389116239164661861}
+  - component: {fileID: 1275794281661790996}
   m_Layer: 0
   m_Name: Dog_BorderCollie_01
   m_TagString: Untagged
@@ -1893,7 +1895,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3291699895274521121}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9995101, z: 0, w: -0.031297307}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -9.2664995, y: 0, z: 10.747055}
   m_LocalScale: {x: 9, y: 9, z: 9}
   m_ConstrainProportionsScale: 0
@@ -1936,7 +1938,7 @@ Transform:
   - {fileID: 8984689486010996197}
   - {fileID: 5956487702219793047}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -183.587, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &1585477625201684948
 Animator:
   serializedVersion: 5
@@ -1981,6 +1983,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a22585a18b719024a8e2ab10f30cbb34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &2389116239164661861
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3291699895274521121}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10655933, y: 0.20683624, z: 0.28162405}
+  m_Center: {x: -0.00068918866, y: 0.104168154, z: 0.023713218}
+--- !u!114 &1275794281661790996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3291699895274521121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1b174941d2bb44ea369497a8f23b25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3389120143463027676
